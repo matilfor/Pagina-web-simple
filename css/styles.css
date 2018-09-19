@@ -1,0 +1,123 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.main-container{
+  padding: 0;
+}
+
+.banner-div{
+  margin: auto;
+  max-width: 800px;
+}
+
+.banner{
+  width: 100%;
+}
+
+.top-div{
+  margin: auto;
+  text-align: center;
+}
+
+p{
+  font-family: 'Pacifico', cursive;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.input-div{
+  margin: auto;
+  text-align: center;
+}
+
+.textbox-div{
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.textbox{
+  width: auto;
+  border-color: black;
+  padding: 5px;
+}
+
+.button-div{
+  display: inline-block;
+}
+
+.button{
+  background-color: lightpink;
+  color: white;
+  width: 100px;
+  height: 30px;
+  border: none;
+}
+
+.icons-div{
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.twitter-div{
+  display: inline-block;
+  margin: 20px;
+}
+
+.instagram-div{
+  display: inline-block;
+  margin: 20px;
+}
+
+.face-div{
+  display: inline-block;
+  margin: 20px;
+}
+
+.icon{
+  width: 50px;
+  height: 50px;
+}
+
+.bottom-div{
+  margin: auto;
+  padding: 40px;
+}
+
+.span-bottom{
+  text-align: center;
+}
+
+a{
+  color: lightpink;
+}
+
+@media (min-width:800px) {
+  .banner{
+    width: 100%;
+  }
+
+  .top-div{
+    display: inline-block;
+    margin-left: 300px;
+  }
+
+  p{
+  font-size: 15px;
+  }
+
+  .textbox{
+    width: 200px;
+  }
+
+  .input-div{
+    display: inline-block;
+  }
+
+  .icons-div{
+    margin-left: 600px;
+  }
+
+}
