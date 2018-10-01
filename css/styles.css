@@ -9,10 +9,13 @@ body{
 
 .banner-div{
   margin: auto;
-  max-width: 800px;
+  display: block;
+  width: 100%;
 }
 
 .banner{
+  display: block;
+  margin: auto;
   width: 100%;
 }
 
@@ -95,7 +98,14 @@ a{
 }
 
 @media (min-width:800px) {
+  .banner-div{
+    margin: auto;
+    width: 100%;
+  }
+
   .banner{
+    display: block;
+    margin: auto;
     width: 100%;
   }
 
